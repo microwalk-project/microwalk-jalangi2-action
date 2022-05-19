@@ -1,5 +1,5 @@
 #!/bin/sh -l
 
 analysisScriptDirectory=$1
-cd $analysisScriptDirectory
+cd $GITHUB_WORKSPACE/$analysisScriptDirectory
 bash analyze.sh
