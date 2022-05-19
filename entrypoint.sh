@@ -2,4 +2,4 @@
 
 analysisScriptDirectory=$1
 cd $analysisScriptDirectory
-bash analyze.sh $analysisScriptDirectory/report.sarif
+bash analyze.sh

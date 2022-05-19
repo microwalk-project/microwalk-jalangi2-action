@@ -2,7 +2,7 @@ name: 'Microwalk Jalangi2'
 description: 'Analyze JavaScript code with the Microwalk Jalangi2 backend'
 inputs:
   analysis-script-directory:
-    description: 'Directory path of the analyze.sh script'
+    description: 'Directory path of the analyze.sh script, relative to the repository root'
     required: true
 runs:
   using: 'docker'

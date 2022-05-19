@@ -8,4 +8,4 @@ Use this with the [Microwalk Jalangi2 GitHub template](https://github.com/microw
 
 ### `analysis-script-directory`
 
-Directory containing the `analyze.sh` script. This script runs the actual analysis and stores a SARIF report at `$analysis-script-directory/report.sarif`.
+Directory containing the `analyze.sh` script. This script runs the actual analysis and stores a SARIF report at `$analysis-script-directory/results/report.sarif`.
